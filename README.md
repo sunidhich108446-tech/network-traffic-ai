@@ -186,19 +186,31 @@ What-if Simulation & CSV Export
 
 ##  Tech Stack
 
-| Technology | Purpose |
+| Technology / Library | Purpose |
 |---|---|
-| Python | Core programming language |
-| Pandas | Data manipulation and analysis |
-| NumPy | Numerical computations |
-| Scikit-learn | Model evaluation and ML utilities |
-| XGBoost |Random Forest| AdaBoost| Gradient Boosting |Final regression model |
-| Matplotlib / Seaborn | Exploratory data analysis and visualization |
-| Streamlit | Interactive dashboard |
-| Joblib | Model serialization |
-| Git & GitHub | Version control and project hosting |
+| **Python** | Core programming language |
+| **Pandas** | Data manipulation and preprocessing |
+| **NumPy** | Numerical computations |
+| **Scikit-learn** | Machine learning utilities, preprocessing and model evaluation |
+| **XGBoost** | Final 30-second-ahead RTT forecasting model |
+| **Random Forest** | Regression model experimentation |
+| **AdaBoost** | Regression model experimentation |
+| **Gradient Boosting** | Regression model experimentation |
+| **Matplotlib** | Data visualization |
+| **Seaborn** | Exploratory Data Analysis (EDA) |
+| **Streamlit** | Interactive web dashboard development |
+| **Joblib** | Saving and loading the trained ML model |
+| **Git & GitHub** | Version control and source code management |
 
----
+### Core Concepts Used
+- Supervised Machine Learning
+- Regression
+- Ensemble Learning
+- Gradient Boosting
+- Feature Engineering
+- Model Evaluation
+- Data Preprocessing
+- Interactive Data Visualization
 
 ##  Project Structure
 
