@@ -270,6 +270,7 @@ Some possible extensions of this project include:
 **Sunidhi Chaurasia**
 
 Electronics and Communication Engineering Student
+Madan Mohan Malaviya University of Technology, Gorakhpur,UP
 
 - GitHub: [@sunidhich108446-tech](https://github.com/sunidhich108446-tech)
 
