@@ -117,7 +117,7 @@ A chronological 80:20 train-test split is used for the time-dependent forecastin
 
 ---
 
-## 📊 Dataset and Features
+##  Dataset and Features
 
 The project uses a network performance dataset containing approximately **49,532 records** after preparing the target data.
 
@@ -184,7 +184,7 @@ What-if Simulation & CSV Export
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Technology | Purpose |
 |---|---|
@@ -228,77 +228,6 @@ network-traffic-ai/
 ```
 
 **Note:** Dataset and trained model files may need to be obtained separately if they are excluded from the Git repository.
-
----
-
-## 🚀 Installation and Setup
-
-### Prerequisites
-
-- Python 3.9 or later.
-- Git.
-- pip.
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/sunidhich108446-tech/network-traffic-ai.git
-```
-
-### 2. Navigate to the project directory
-
-```bash
-cd network-traffic-ai
-```
-
-### 3. Create a virtual environment
-
-```bash
-python -m venv venv
-```
-
-Activate it:
-
-**Windows:**
-
-```bash
-venv\Scripts\activate
-```
-
-**Linux / macOS:**
-
-```bash
-source venv/bin/activate
-```
-
-### 4. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 5. Prepare the required files
-
-Ensure the following files are available:
-
-- `data/raw/final.csv`
-- `models/latency_model.joblib`
-
-If you are training the model yourself, ensure the dataset is available first.
-
-### 6. Train the model
-
-```bash
-python -m src.train
-```
-
-### 7. Launch the dashboard
-
-```bash
-streamlit run app.py
-```
-
-The application will open in your browser.
 
 ---
 
